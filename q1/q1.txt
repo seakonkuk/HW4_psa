@@ -12,7 +12,7 @@ git commit -m "B"
 # node D
 git checkout main
 git merge develop
-git commit -m "D"
+git commit --amend -m "D"
 
 # node E
 git checkout develop
@@ -21,4 +21,5 @@ git commit -m "E"
 # node F
 git checkout main
 git merge develop
-git commit -m "F"
+git commit --amend -m "F"
+git checkout develop
